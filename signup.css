@@ -1,0 +1,86 @@
+/* sign-up*/
+body{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.reg-header{
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    position:absolute;
+    top:0;
+    left:0;
+    border-bottom: 1px solid #e6e6e6;
+}
+.reg-header p{
+    float:right;
+    margin-top:20px;
+    margin-right: 60px;
+    color: #000000;
+}
+
+#signUpLogo{
+    width: 80px;
+    height: 65px;
+    float: left;
+    position: absolute;
+    top: 6%;
+    left: 5%;
+    z-index:1;
+}
+.button_login {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: black;
+    padding: 10px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0px -2px -5px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    position: absolute;
+    top: 28%;
+    left: 89%;
+    z-index:1;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-weight: bold;
+}
+.main-container{
+    width:500px;
+    max-width: 700px;
+    position:absolute;
+    top:10%;
+    left:30%;
+}
+
+.jo_btn{
+
+    background-color: #e50914;
+    border: 2px solid #e50914;
+    color: white;
+    padding: 6px 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px -2px -5px 2px;
+    cursor: pointer;
+}
+
+textarea,input:not(#remember){
+    display: block;
+    padding: 8px 44px;
+    margin: 10px 0px;
+    border:1px outset #0e0505;
+
+}
+.text p{
+    margin-top: -10px;
+
+}
+form{
+    margin-top:20px;
+    border-block-start: 5px solid #e50914;
+}

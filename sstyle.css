@@ -1,0 +1,17 @@
+body{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.signPageLogo{
+    width: 170px;
+    height: 80px;
+    float: left;
+    position: absolute;
+    top: 6%;
+    left: 5%;
+    z-index:1;
+}
+#signInLogo{
+    margin-top:-20px;
+    margin-right: 35px;
+
+}

@@ -1,0 +1,126 @@
+/* signin page */
+body{
+    background-color: black;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+div{
+    display: block;
+}
+.sinInWapper{
+    width: 100%;
+    height:700px;
+    bottom:0;
+    top:-8px;
+    left:0;
+    right:0;
+    overflow: hidden;
+    position: absolute;
+    z-index: 0;
+    border-bottom: 8px solid #222;
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 40%,transparent 75%,rgba(0,0,0,.8));
+    background: rgba(0,0,0,.4);
+}
+.sinInBackImg{
+    height: 100%;
+    object-fit: cover;
+    width: auto;
+    max-width: 100%;
+}
+
+#signInLogo{
+    width: 170px;
+    height: 80px;
+    float: left;
+    margin-top:-20px;
+    margin-right: 35px;
+    position: absolute;
+    top: 6%;
+    left: 5%;
+    z-index:1;
+}
+.sinInContainer{
+    width: 310px;
+    max-width: 450px;
+    height: 600px;
+    position: absolute;
+    top:12%;
+    left:33%;
+    background-color: black;
+    color: white;
+    padding: 65px;
+    z-index: 1;
+}
+form{
+    margin-top:-20px;
+    color: #8c8c8c;
+}
+h1{
+    color: white;
+}
+p{
+    text-align: center;
+    margin-top: 40px;
+}
+input:not(#remember){
+    display: block;
+    background: #333;
+    border: 0px;
+    border-radius: 4px;
+    padding-top:17px;
+    padding-bottom:17px;
+    color: #fff;
+    width: 100%;
+    margin: 15px 0px;
+
+
+
+}
+
+
+
+
+.forgotPass{
+    float:right;
+    font-size:13px;
+}
+.forgotPass a{
+    color:white;
+    text-decoration: none;
+}
+.forgotPass a:hover{
+    color: red;
+}
+.creatAcc a{
+    color:white;
+    text-decoration: none;
+}
+.creatAcc a:hover{
+    color: red;
+}
+#remember{
+    font-size: 13px;
+}
+.logBtn{
+
+    background-color: #e50914;
+    border: 2px solid #e50914;
+    color: white;
+    width: 100%;
+    border-radius: 4px;
+    padding-top:17px;
+    padding-bottom:17px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 25px 0px;
+    cursor: pointer;
+}
+.sinInBackImgGradient{
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 40%,transparent 75%,rgba(0,0,0,.8));
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}

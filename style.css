@@ -1,0 +1,408 @@
+* {
+    box-sizing: border-box;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.body {
+    margin-left:5px;
+    background: #181818;
+    color: #ffffff;
+    margin-bottom:-15px;
+    margin-top:0px;
+    min-width: 600px;
+}
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000000;
+    display: inline-block;
+    width:100%;
+    height: 85px;
+    margin-left:-5px;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+    background-color: #000000;
+    color: #e40914;
+    justify-content: space-around;
+    align-items: center;
+    position:relative;
+    top:0;
+    z-index:1;
+
+}
+
+#logo{
+    width: 99px;
+    height: 45px;
+    float: left;
+    margin-top:-20px;
+    margin-right: 35px;
+
+
+}
+
+.toggle{
+    width:50px;
+    height: 22px;
+    background-color: white;
+    border-radius: 100px;
+    diplay: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+
+
+
+}
+.toggle-icon{
+    color: #e50914;
+    margin: 3px;
+}
+.toggleBall{
+    width: 20px;
+    height: 16px;
+    background-color: #0e0505;
+    position:absolute;
+    right: 6px;
+    top: 2px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search_bar{
+    width: 100%;
+    max-width: 400px;
+    height: 45px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    margin-left: 37%;
+    margin-top: 15px;
+    padding-left: 20px;
+    border-radius: 90px;
+
+}
+.search_bar input{
+    background: transparent;
+    flex:1;
+    border: 0;
+    outline:none;
+    padding: 24px 20px;
+    font-size:16px;
+    color:white;
+}
+::placeholder{
+    color:white;
+    font-size: 14px;
+}
+.search_bar button img{
+    width: 20px;
+    padding-top: 2px;
+}
+.search_bar button{
+    border:0;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background: #f60707;
+    cursor: pointer;
+    margin-right: 9px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.gallery img {
+    width: auto;
+    max-width: 185px;
+    height: 285px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.gallery img:hover{
+    height:280px;
+    text-decoration: none;
+    opacity:0.7;
+}
+
+.slog{
+    font-size:16px;
+    color: #f10c0c;
+    padding-right:105px;
+    position: relative;
+    margin-top: 24px;
+}
+
+.film-info{
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 170px;
+    text-overflow:ellipsis;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+.film-info a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.film-info a:hover{
+    color: #e40914;
+
+}
+
+ul{
+    float:right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -50px 10px -50px -50px;
+
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 35px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+
+.button_login {
+    background-color: #000000;
+    border: 1px solid #b9b9b9;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0px -2px -5px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.button_join {
+    background-color: red;
+    color: white;
+    padding: 5px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 -35px -5px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid #b9b9b9;
+}
+.button_join:hover{
+    opacity:0.6;
+}
+.button_login:hover{
+    opacity: 0.7;
+}
+footer{
+    margin-top:-1px;
+    display:flex;
+    margin-bottom: 40px;
+}
+
+.footer_about{
+    background-color: transparent;
+    margin-top: 20px;
+    height: 150px;
+    color: #b9b9b9;
+    width:700px;
+    font-size: 15px;
+}
+.footer_privecy{
+    background-color: transparent;
+    color: #b9b9b9;
+    width:210px;
+    height:90px;
+    margin-top: 20px;
+    margin-left:100px;
+    border:1px solid #393939;
+    padding:0px 15px ;
+    float:right;
+    font-size:12px;
+    position: relative;
+    display: inline-block;
+}
+#foot_logo{
+    width: 99px;
+    height: 45px;
+    float: left;
+    margin-top:20px;
+    margin-right: 30px;
+}
+.footer_logo{
+    margin-left:20px;
+    vertical-align: middle;
+    color: #b9b9b9;
+}
+hr{
+    margin-bottom:15px;
+    background-color: #e40914;
+    height: 2px;
+    border-color: #e40914;
+
+}
+#term{
+    color: white;
+    font-weight: bold;
+}
+#term a{
+    color:white;
+    text-decoration: none;
+}
+#term a:hover{
+    color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-top: 10px;
+    width:250px;
+    height: 200px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(121, 95, 95, 0.2);
+    z-index: 1;
+    overflow: scroll;
+}
+
+.dropdown-content a {
+    color: #0e0505;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown {
+    position: relative;
+    display: inline;
+}
+.button-filter {
+    background-color: #000000;
+    color: white;
+    padding: 5px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bolder;
+    margin: 0px -35px -5px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid #b9b9b9;
+
+}
+
+.body.active{
+    background-color: white;
+    color: black;
+}
+.header.active{
+    background-color: white;
+    box-shadow: 0px 0px 8px 0px black;
+}
+.film-info.active{
+    color: black;
+}
+
+.film-info a.active{
+    color: #0e0505;
+    text-decoration: none;
+}
+.footer_about.active{
+    color: black;
+}
+#term.active{
+    color: black;
+}
+#term a.active{
+    color: #181818;
+}
+.footer_privecy.active{
+    color: black;
+    border-color: black;
+}
+.figCap.active{
+    color: black;
+}
+.search_bar.active{
+    box-shadow:  0px 0px 8px 0px black;
+}
+.search_bar input.active{
+    color: black;
+}
+.toggle.active{
+    background-color: black;
+}
+.toggleBall.active{
+    background-color: white;
+    transform: translateX(-20px);
+}
+
+@media only screen and (max-width: 798px){
+      .slog,.dropdown{
+        display:none;
+
+      }
+
+
+}
+@media only screen and (max-width: 598px){
+    #logo{
+        width: 85px;
+        height: 25px;
+        float: left;
+        margin-top:0px;
+        margin-right: 35px;
+    }
+    ul{
+        float:left;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin: -50px 10px -50px -50px;
+    }
+    .search_bar{
+        margin-left: 7%;
+        margin-top: 0;
+    }
+    .toggle{
+        margin-left: -35px;
+    }
+    .gallery{
+        gap: 5px;
+        margin: -5px 0 0 0;
+
+
+    }
+
+}
