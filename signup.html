@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NETVIEW</title>
+  <link rel="stylesheet" href="signup.css">
+  <script src="netview.js"></script>
+</head>
+<body>
+<header>
+  <div class="reg-header ">
+    <img src="image/Home-net.png" id="signUpLogo">
+    <a href="sign_in.html"><button class="button_login">Sign In</button></a>
+  </div>
+</header>
+<div class="main-container">
+  <form action="" method="post" onsubmit="return registerUser()">
+    <h1>Sign Up To Start your membershipz</h1>
+    <div class="text">
+      <p>Just fill in this form and you're done .</p>
+      <p>We hate paperwork, too.</p>
+    </div>
+      <hr>
+      <label for="newEmail" ><b>Email</b></label>
+      <input type="email" placeholder="Enter Email" id="newEmail" name="newEmail" required>
+
+      <label for="newPassword"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" pattern="[A-Za-Z0-9]" id="newPassword" name="newPassword" required>
+
+      <label for="conPass"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Confirm Password" id="conPass" name="conPass" required>
+
+      <label>
+        <input type="checkbox" checked="checked" id="remember" ame="remember"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="privacy policy.html">Terms & Privacy</a>.</p>
+
+       <button class="jo_btn" onclick="logged.html">Sign Up</button>
+  </form>
+</div>
+
+</body>
+</html>
