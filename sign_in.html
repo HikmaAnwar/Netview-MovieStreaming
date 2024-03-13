@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NETVIEW</title>
+  <link rel="stylesheet" href="Signin.css">
+  <script src="netview.js"></script>
+  <script src="https://kit.fontawesome.com/ebaf988147.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="sinInWapper">
+    <img class="sinInBackImg" src="image/home-background.jpg">
+    <div>
+      <img src="image/Home-logo.png" id="signInLogo">
+    </div>
+    <div class="sinInContainer">
+      <form>
+        <h1>Sign In</h1>
+
+        <div>
+          <label for="email"></label>
+          <input type="text" placeholder="Email " id="email" name="email" required>
+          <label for="password"></label>
+          <input type="text" placeholder="Password" name="password" id="password" required>
+          <label for="remember">
+            <input type="checkbox" checked="checked" id="remember" name="remember"> Remember me
+          </label><span class="forgotPass">Forgot <a href=" ">password?</a></span>
+          <p>New to Netview? <span class="creatAcc"><a href="signup.html">Sign up now.</a></span></p>
+        </div>
+      </form>
+         <button  class="logBtn" onclick="login()">Login</button>
+    </div>
+    <div class="sinInBackImgGradient"></div>
+  </div>
+
+</body>
+</html>
